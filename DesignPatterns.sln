@@ -3,8 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25029.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creationals", "Creationals", "{7397708F-628E-4CC7-AE83-E4A93BAFC7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{5A99E027-A8C2-4B38-A845-AB8B65530F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{AAC15C09-8BB6-4CB7-993D-92AAB7AEED9D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A99E027-A8C2-4B38-A845-AB8B65530F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A99E027-A8C2-4B38-A845-AB8B65530F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A99E027-A8C2-4B38-A845-AB8B65530F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A99E027-A8C2-4B38-A845-AB8B65530F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC15C09-8BB6-4CB7-993D-92AAB7AEED9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC15C09-8BB6-4CB7-993D-92AAB7AEED9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC15C09-8BB6-4CB7-993D-92AAB7AEED9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC15C09-8BB6-4CB7-993D-92AAB7AEED9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A99E027-A8C2-4B38-A845-AB8B65530F8C} = {7397708F-628E-4CC7-AE83-E4A93BAFC7F8}
+		{AAC15C09-8BB6-4CB7-993D-92AAB7AEED9D} = {7397708F-628E-4CC7-AE83-E4A93BAFC7F8}
 	EndGlobalSection
 EndGlobal
