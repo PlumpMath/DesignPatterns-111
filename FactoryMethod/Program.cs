@@ -56,17 +56,25 @@ namespace FactoryMethod
     {
         public IShape CreateShape(ShapeType shapeType)
         {
+            IShape newShape;
+
             switch (shapeType)
             {
                 case ShapeType.Circle:
-                    return new Circle();
+                    newShape = new Circle();
+                    break;
                 case ShapeType.Rectangle:
-                    return new Rectangle();
+                    newShape = new Rectangle();
+                    break;
                 case ShapeType.Square:
-                    return new Square();
+                    newShape = new Square();
+                    break;
                 default:
-                    return new NullShape();
+                    newShape = new NullShape();
+                    break;
             }
+
+            return newShape;
         }
 
         public T CreateShape<T>() where T : IShape, new()
