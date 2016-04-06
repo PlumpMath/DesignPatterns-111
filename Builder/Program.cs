@@ -1,5 +1,5 @@
-﻿//Example Effective Java Second Edition Page 14
-//Moved from Jva to C#
+//Example Effective Java Second Edition Page 14
+//Moved from Java to C#
 
 using Helpers;
 
