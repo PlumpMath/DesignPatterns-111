@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25029.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creationals", "Creationals", "{7397708F-628E-4CC7-AE83-E4A93BAFC7F8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{7397708F-628E-4CC7-AE83-E4A93BAFC7F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{5A99E027-A8C2-4B38-A845-AB8B65530F8C}"
 EndProject
@@ -14,6 +14,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{D3FCFA51-49B5-4655-86EC-0DDC5F2D19F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{519F91FA-5067-4E94-A757-A6D00323E3BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{7AEE57F6-A11A-4274-B2EA-38EF0190058B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavior", "Behavior", "{9F40D0B1-D233-4024-89FD-CC6495C98A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{B131AB51-48FC-4597-8761-D55016C06A3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +47,10 @@ Global
 		{519F91FA-5067-4E94-A757-A6D00323E3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{519F91FA-5067-4E94-A757-A6D00323E3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{519F91FA-5067-4E94-A757-A6D00323E3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B131AB51-48FC-4597-8761-D55016C06A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B131AB51-48FC-4597-8761-D55016C06A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B131AB51-48FC-4597-8761-D55016C06A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B131AB51-48FC-4597-8761-D55016C06A3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +60,6 @@ Global
 		{AAC15C09-8BB6-4CB7-993D-92AAB7AEED9D} = {7397708F-628E-4CC7-AE83-E4A93BAFC7F8}
 		{3805E8C0-407D-4761-9559-89318192ADAF} = {7397708F-628E-4CC7-AE83-E4A93BAFC7F8}
 		{D3FCFA51-49B5-4655-86EC-0DDC5F2D19F3} = {7397708F-628E-4CC7-AE83-E4A93BAFC7F8}
+		{B131AB51-48FC-4597-8761-D55016C06A3B} = {9F40D0B1-D233-4024-89FD-CC6495C98A71}
 	EndGlobalSection
 EndGlobal
