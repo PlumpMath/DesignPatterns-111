@@ -7,7 +7,7 @@ namespace Strategy
         void Print(string text);
     }
 
-    //Strategy: Print text letter by letter each 250ms
+    //Strategy: Print text letter by letter each 50 ms
     public class PrintByLetter : IPrintable
     {
         public void Print(string text)
@@ -21,7 +21,7 @@ namespace Strategy
         }
     }
 
-    //Strategy: Print text word by word each 250ms
+    //Strategy: Print text word by word each 50 ms
     public class PrintByWord : IPrintable
     {
         public void Print(string text)
@@ -35,7 +35,7 @@ namespace Strategy
         }
     }
 
-    //Strategy: Print text word by word with different colors
+    //Strategy: Print text word by word with different colors each 50 ms
     public class PrintByWordColor : IPrintable
     {
         public void Print(string text)
