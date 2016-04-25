@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25029.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{7397708F-628E-4CC7-AE83-E4A93BAFC7F8}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{BD2D20B6-D84E-4A24-8225-6463B2686B88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{9E293D64-C8A2-4C16-A6C2-1A5A410ECCE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{3A8D8D91-2CAD-47D1-B631-3EA158DD4999}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{9E293D64-C8A2-4C16-A6C2-1A5A410ECCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E293D64-C8A2-4C16-A6C2-1A5A410ECCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E293D64-C8A2-4C16-A6C2-1A5A410ECCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8D8D91-2CAD-47D1-B631-3EA158DD4999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8D8D91-2CAD-47D1-B631-3EA158DD4999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8D8D91-2CAD-47D1-B631-3EA158DD4999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8D8D91-2CAD-47D1-B631-3EA158DD4999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,5 +95,6 @@ Global
 		{A8E345AC-D6EA-4FA7-AE1A-68A885927546} = {7AEE57F6-A11A-4274-B2EA-38EF0190058B}
 		{BD2D20B6-D84E-4A24-8225-6463B2686B88} = {7AEE57F6-A11A-4274-B2EA-38EF0190058B}
 		{9E293D64-C8A2-4C16-A6C2-1A5A410ECCE7} = {7AEE57F6-A11A-4274-B2EA-38EF0190058B}
+		{3A8D8D91-2CAD-47D1-B631-3EA158DD4999} = {7AEE57F6-A11A-4274-B2EA-38EF0190058B}
 	EndGlobalSection
 EndGlobal
